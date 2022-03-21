@@ -1,0 +1,39 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+ul{
+    &.pm{
+        padding: 0;
+        margin: 0;
+    }
+}
+
+a{
+    &.u_none{
+        text-decoration: none;
+    }
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+input{
+    &:focus{
+        outline: none;
+    }
+}
+
+button{
+    &:focus{
+        outline: none;
+    }
+}
