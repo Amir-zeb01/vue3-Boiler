@@ -11,10 +11,7 @@ import FontAwesomeIcon from "./fa";
 
 import titleMixin from "./mixins/titleMixin";
 
-Vue.mixin(titleMixin);
-Vue.component("fa", FontAwesomeIcon);
-
-const app = createApp(App);
+const app = createApp(App).component("fa", FontAwesomeIcon).mixin(titleMixin);
 
 app.use(router);
 app.mount("#app");

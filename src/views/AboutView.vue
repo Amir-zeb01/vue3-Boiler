@@ -1,8 +1,4 @@
 <script setup>
-export default {
-  name: "Home",
-  title: "Home",
-};
 </script>
 
 <template>
@@ -13,6 +9,12 @@ export default {
     </div>
   </main>
 </template>
+<script>
+export default {
+  name: "About",
+  title: "About | Website",
+};
+</script>
 
 <style lang="scss" scoped>
 </style>
